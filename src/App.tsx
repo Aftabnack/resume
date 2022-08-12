@@ -8,15 +8,21 @@ Font.register({
 Font.register({
   family: "Lato",
   fonts: [
-    { src: "/fonts/Lato-Regular.ttf" }, // font-style: normal, font-weight: normal
-    { src: "/fonts/Lato-Italic.ttf", fontStyle: "italic" },
-    { src: "/fonts/Lato-Light.ttf", fontWeight: 300 },
+    { src: import.meta.env.BASE_URL + `fonts/Lato-Regular.ttf` }, // font-style: normal, font-weight: normal
     {
-      src: "/fonts/Lato-LightItalic.ttf",
+      src: import.meta.env.BASE_URL + `fonts/Lato-Italic.ttf`,
+      fontStyle: "italic",
+    },
+    {
+      src: import.meta.env.BASE_URL + `fonts/Lato-Light.ttf`,
+      fontWeight: 300,
+    },
+    {
+      src: import.meta.env.BASE_URL + `fonts/Lato-LightItalic.ttf`,
       fontWeight: 300,
       fontStyle: "italic",
     },
-    { src: "/fonts/Lato-Bold.ttf", fontWeight: 700 },
+    { src: import.meta.env.BASE_URL + `fonts/Lato-Bold.ttf`, fontWeight: 700 },
   ],
 });
 Font.registerHyphenationCallback((word) => [word]);
