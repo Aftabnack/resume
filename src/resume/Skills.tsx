@@ -6,9 +6,15 @@ export default function Skills() {
   return (
     <Section title="Skills">
       <Typography variant="small">
-        JavaScript, ReactJS, Typescript, GraphQL, NodeJS, Docker, Linux,
-        Webpack, Babel, AST, NextJS, RegExp, Git
+        JavaScript, ReactJS, Typescript, GraphQL, NodeJS, NextJS, RegExp
       </Typography>
+      <View style={{ marginTop: 8 }}>
+        <Typography variant="small">
+          <Text style={{ textDecoration: "underline" }}>Tooling & Devops</Text>:
+          Webpack, AST, ESLint, Babel, Create-React-App, Docker, Linux, Git,
+          Bash Script, Jenkins
+        </Typography>
+      </View>
       <View style={{ marginTop: 8 }}>
         <Typography variant="small">
           <Text style={{ textDecoration: "underline" }}>Libraries</Text>: React
