@@ -1,31 +1,29 @@
-import React from "react";
-import { Page, Text, View, Document, StyleSheet } from "@react-pdf/renderer";
+import { PDFViewer, Font } from "@react-pdf/renderer";
+import Resume from "./Resume";
 
-// Create styles
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: "row",
-    backgroundColor: "#E4E4E4",
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1,
-  },
+Font.register({
+  family: "Mouse Memoirs",
+  src: "/fonts/MouseMemoirs-Regular.ttf",
+});
+Font.register({
+  family: "Lato",
+  fonts: [
+    { src: "/fonts/Lato-Regular.ttf" }, // font-style: normal, font-weight: normal
+    { src: "/fonts/Lato-Italic.ttf", fontStyle: "italic" },
+    { src: "/fonts/Lato-Light.ttf", fontWeight: 300 },
+    {
+      src: "/fonts/Lato-LightItalic.ttf",
+      fontWeight: 300,
+      fontStyle: "italic",
+    },
+    { src: "/fonts/Lato-Bold.ttf", fontWeight: 700 },
+  ],
 });
 
-// Create Document Component
 const App = () => (
-  <Document>
-    <Page size="A4" style={styles.page}>
-      <View style={styles.section}>
-        <Text>Section #1</Text>
-      </View>
-      <View style={styles.section}>
-        <Text>Section #2</Text>
-      </View>
-    </Page>
-  </Document>
+  <PDFViewer style={{ width: "803px", height: "1132px" }} showToolbar={false}>
+    <Resume />
+  </PDFViewer>
 );
 
 export default App;
