@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "ts-node-esm tools/create_pdf.js"
   },
   "dependencies": {
     "@react-pdf/renderer": "2.3.0",
@@ -19,7 +20,8 @@
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@vitejs/plugin-react": "2.0.1",
+    "ts-node": "10.9.1",
     "typescript": "4.7.4",
-    "vite": "3.0.6"
+    "vite": "3.0.7"
   }
 }

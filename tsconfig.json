@@ -16,6 +16,12 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "ts-node": {
+    "experimentalSpecifierResolution": "node",
+    "compilerOptions": {
+      "types": ["vite/client"]
+    }
+  },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
