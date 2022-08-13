@@ -1,10 +1,11 @@
-import { PDFViewer } from "@react-pdf/renderer";
+import { View } from "react-native-web";
 import Resume from "./resume";
+import "./App.css";
 
 const App = () => (
-  <PDFViewer style={{ width: "803px", height: "1132px" }} showToolbar={false}>
+  <View style={{ width: "803px", height: "1132px" }}>
     <Resume />
-  </PDFViewer>
+  </View>
 );
 
 export default App;

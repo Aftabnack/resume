@@ -14,12 +14,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "react-native-web": ["./node_modules/@types/react-native"]
+    }
   },
   "ts-node": {
     "experimentalSpecifierResolution": "node",
     "compilerOptions": {
-      "types": ["vite/client"]
+      "types": ["vite/types/importMeta"]
     }
   },
   "include": ["src"],
