@@ -81,15 +81,7 @@ function recurseStyles(styles) {
     if (typeof value === "object") {
       recurseStyles(value);
     } else if (typeof value === "number") {
-      if (
-        key === "fontSize" ||
-        key.startsWith("margin") ||
-        key.startsWith("padding") ||
-        key === "height" ||
-        key === "width"
-      ) {
-        styles[key] = ptToPx(value);
-      }
+      styles[key] = ptToPx(value);
     }
   });
 }
