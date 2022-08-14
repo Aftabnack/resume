@@ -71,6 +71,36 @@ const Font = {
   registerHyphenationCallback: () => {},
 };
 
+function ptToPx(pt) {
+  return (pt * 96) / 72;
+}
+
+function recurseStyles(styles) {
+  Object.keys(styles).forEach((key) => {
+    const value = styles[key];
+    if (typeof value === "object") {
+      recurseStyles(value);
+    } else if (typeof value === "number") {
+      if (
+        key === "fontSize" ||
+        key.startsWith("margin") ||
+        key.startsWith("padding") ||
+        key === "height" ||
+        key === "width"
+      ) {
+        styles[key] = ptToPx(value);
+      }
+    }
+  });
+}
+
+const ScaledStyleSheet = {
+  create: function (styles) {
+    recurseStyles(styles);
+    return StyleSheet.create(styles);
+  },
+};
+
 export {
   WrappedImage as Image,
   Text,
@@ -78,6 +108,6 @@ export {
   Link,
   Document,
   Page,
-  StyleSheet,
+  ScaledStyleSheet as StyleSheet,
   Font,
 };

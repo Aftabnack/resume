@@ -1,4 +1,4 @@
-import { Page, View, Document, Font } from "@react-pdf/renderer";
+import { Page, View, Document, Font, StyleSheet } from "@react-pdf/renderer";
 import Personal from "./Personal";
 import Skills from "./Skills";
 
@@ -35,15 +35,21 @@ Font.register({
 });
 Font.registerHyphenationCallback((word) => [word]);
 
+const styles = StyleSheet.create({
+  page: { flexDirection: "row", backgroundColor: "white" },
+  leftview: { backgroundColor: "#0284c7", flex: 1 },
+  rightview: { flex: 2 },
+});
+
 // Create Document Component
 const Resume = () => (
   <Document>
-    <Page size="A4" style={{ flexDirection: "row", backgroundColor: "white" }}>
-      <View style={{ backgroundColor: "#0284c7", flex: 1 }}>
+    <Page size="A4" style={styles.page}>
+      <View style={styles.leftview}>
         <Personal />
         <Skills />
       </View>
-      <View style={{ flex: 2 }}></View>
+      <View style={styles.rightview}></View>
     </Page>
   </Document>
 );

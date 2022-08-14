@@ -1,4 +1,4 @@
-import { Image, Link, View } from "@react-pdf/renderer";
+import { Image, Link, View, StyleSheet } from "@react-pdf/renderer";
 
 type CompProps = {
   icon: "phone" | "email" | "linkedin" | "github" | "twitter" | "medium";
@@ -22,21 +22,24 @@ const urls = {
   medium: "https://medium.com/@aftabnack",
 };
 
+const styles = StyleSheet.create({
+  icon: { height: 18, width: 18 },
+  container: {
+    height: 24,
+    width: 24,
+    display: "flex",
+    alignItems: "flex-start",
+    justifyContent: "center",
+  },
+});
+
 export default function Icons(props: CompProps) {
   const { icon } = props;
 
   return (
-    <View
-      style={{
-        height: 24,
-        width: 24,
-        display: "flex",
-        alignItems: "flex-start",
-        justifyContent: "center",
-      }}
-    >
+    <View style={styles.container}>
       <Link src={urls[icon]}>
-        <Image src={{ uri: iconMap[icon] }} style={{ height: 18, width: 18 }} />
+        <Image src={{ uri: iconMap[icon] }} style={styles.icon} />
       </Link>
     </View>
   );
