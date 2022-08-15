@@ -10,7 +10,7 @@ This repo is going to be powering the resume for Aftab Khan. There has been a fa
 ## Current Tech Stack
 
 - ViteJS + React TS
-- ReactPDF on NodeJS + React Native Web on browser
+- Single codebase doing both ReactPDF on NodeJS + React Native Web on browser
 - Github pages via Github Actions
 
 ## Implementation notes

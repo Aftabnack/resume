@@ -15,7 +15,7 @@ export default function Skills() {
       <View style={styles.sectionGap}>
         <Typography variant="small">
           <Text style={{ textDecoration: "underline" }}>Tooling & Devops</Text>:
-          Webpack, AST, ESLint, Babel, Create-React-App, Docker, Linux, Git,
+          AST, Webpack, ESLint, Babel, Create-React-App, Docker, Linux, Git,
           Bash Script, Jenkins
         </Typography>
       </View>

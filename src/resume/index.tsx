@@ -1,4 +1,6 @@
 import { Page, View, Document, Font, StyleSheet } from "@react-pdf/renderer";
+import Education from "./Education";
+import Experience from "./Experience";
 import Personal from "./Personal";
 import Skills from "./Skills";
 
@@ -48,6 +50,8 @@ const Resume = () => (
       <View style={styles.leftview}>
         <Personal />
         <Skills />
+        <Experience />
+        <Education />
       </View>
       <View style={styles.rightview}></View>
     </Page>

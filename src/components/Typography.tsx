@@ -1,8 +1,9 @@
 import { Text, StyleSheet } from "@react-pdf/renderer";
+import { CSSProperties } from "react";
 
 type CompProps = {
   variant: "heading" | "subheading" | "title" | "content" | "small";
-  color?: "black" | "white";
+  color?: CSSProperties["color"];
   children: React.ReactNode;
 };
 
@@ -29,15 +30,9 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontFamily: "Lato",
   },
-  black: {
-    color: "black",
-  },
-  white: {
-    color: "white",
-  },
 });
 
 export default function Typography(props: CompProps) {
   const { variant, children, color = "white" } = props;
-  return <Text style={[styles[variant], styles[color]]}>{children}</Text>;
+  return <Text style={[styles[variant], { color }]}>{children}</Text>;
 }
