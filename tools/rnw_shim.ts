@@ -25,7 +25,7 @@ function Document(props) {
 function Page(props) {
   return createElement(
     View,
-    { style: { width: "810px", height: "1132px", ...props.style } },
+    { style: { width: "810px", height: "1150px", ...props.style } },
     props.children
   );
 }

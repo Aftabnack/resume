@@ -5,7 +5,7 @@ import { CSSProperties } from "react";
 type CompProps = {
   variant:
     | "heading"
-    | "sideHeading"
+    | "rightHeading"
     | "subheading"
     | "title"
     | "content"
@@ -17,30 +17,30 @@ type CompProps = {
 
 const styles = StyleSheet.create({
   heading: {
-    fontSize: 30,
-    fontFamily: "Mouse Memoirs",
-  },
-  sideHeading: {
-    fontSize: 20,
+    fontSize: 28,
     fontFamily: "Mouse Memoirs",
   },
   subheading: {
-    fontSize: 14,
+    fontSize: 12,
     color: "#e8ebed",
     fontFamily: "Lato",
   },
   title: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "bold",
     fontFamily: "Lato",
   },
   content: {
-    fontSize: 14,
+    fontSize: 12,
     fontFamily: "Lato",
   },
   small: {
-    fontSize: 12,
+    fontSize: 10,
     fontFamily: "Lato",
+  },
+  rightHeading: {
+    fontSize: 18,
+    fontFamily: "Mouse Memoirs",
   },
 });
 

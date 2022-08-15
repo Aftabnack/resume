@@ -137,7 +137,7 @@ const data = [
 export default function WhyHire() {
   return (
     <View style={styles.container}>
-      <Typography variant="sideHeading" color="#0284c7">
+      <Typography variant="rightHeading" color="#0284c7">
         Key things about me
       </Typography>
       <View style={styles.longLine} />
@@ -147,10 +147,10 @@ export default function WhyHire() {
         }
         return (
           <View style={styles.lineContainer} key={idx}>
-            <Typography variant="small" style={styles.lineBullet}>
+            <Typography variant="content" style={styles.lineBullet}>
               »
             </Typography>
-            <Typography variant="small" style={styles.lineItem}>
+            <Typography variant="content" style={styles.lineItem}>
               {entry}
             </Typography>
           </View>
