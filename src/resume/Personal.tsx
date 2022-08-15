@@ -2,6 +2,7 @@ import { Image, View, StyleSheet } from "@react-pdf/renderer";
 import Icons from "../components/Icons";
 import Section from "../components/Section";
 import Typography from "../components/Typography";
+import { base } from "../url";
 
 const styles = StyleSheet.create({
   locIcon: { height: 18, width: 18, marginRight: 8 },
@@ -17,7 +18,7 @@ export default function Personal() {
       <View style={styles.locContainer}>
         <Image
           src={{
-            uri: "https://cdn-icons-png.flaticon.com/128/535/535188.png",
+            uri: base + "icons/location.png",
           }}
           style={styles.locIcon}
         />

@@ -27,10 +27,10 @@ export default function Experience() {
     <Section title="Experience">
       {data.map((exp) => {
         return (
-          <>
+          <View key={exp.company}>
             <Typography variant="content">{exp.company}</Typography>
             {exp.roles.map((role) => (
-              <View style={styles.sameCompany}>
+              <View style={styles.sameCompany} key={role.title}>
                 <Typography variant="small">• {role.title}</Typography>
                 <Typography variant="small" color="#d4d4d8">
                   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -39,7 +39,7 @@ export default function Experience() {
               </View>
             ))}
             <View style={styles.bottomMargin} />
-          </>
+          </View>
         );
       })}
     </Section>

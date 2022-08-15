@@ -1,16 +1,17 @@
 import { Image, Link, View, StyleSheet } from "@react-pdf/renderer";
+import { base } from "../url";
 
 type CompProps = {
   icon: "phone" | "email" | "linkedin" | "github" | "twitter" | "medium";
 };
 
 const iconMap = {
-  phone: "https://cdn-icons-png.flaticon.com/128/152/152851.png",
-  email: "https://cdn-icons-png.flaticon.com/128/725/725643.png",
-  linkedin: "https://cdn-icons-png.flaticon.com/128/1384/1384088.png",
-  github: "https://cdn-icons-png.flaticon.com/128/1051/1051326.png",
-  twitter: "https://cdn-icons-png.flaticon.com/128/733/733635.png",
-  medium: "https://cdn-icons-png.flaticon.com/128/2111/2111543.png",
+  phone: base + "icons/phone.png",
+  email: base + "icons/mail.png",
+  linkedin: base + "icons/linkedin.png",
+  github: base + "icons/github.png",
+  twitter: base + "icons/twitter.png",
+  medium: base + "icons/medium.png",
 };
 
 const urls = {

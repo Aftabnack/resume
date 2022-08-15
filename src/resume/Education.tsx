@@ -25,7 +25,7 @@ export default function Education() {
     <Section title="Education">
       {data.map((clg) => {
         return (
-          <>
+          <View key={clg.name}>
             <Typography variant="small">{clg.name}</Typography>
             <Typography variant="small" color="#d4d4d8">
               {clg.subtitle}
@@ -34,7 +34,7 @@ export default function Education() {
               {clg.timeline}
             </Typography>
             <View style={styles.bottomMargin} />
-          </>
+          </View>
         );
       })}
     </Section>

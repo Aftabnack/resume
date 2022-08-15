@@ -1,38 +1,32 @@
 import { Page, View, Document, Font, StyleSheet } from "@react-pdf/renderer";
+import { base } from "../url";
 import Education from "./Education";
 import Experience from "./Experience";
 import Personal from "./Personal";
 import Skills from "./Skills";
 
-let url;
-try {
-  url = import.meta.env.BASE_URL;
-} catch (e) {
-  url = "public/";
-}
-
 Font.register({
   family: "Mouse Memoirs",
-  src: url + "fonts/MouseMemoirs-Regular.ttf",
+  src: base + "fonts/MouseMemoirs-Regular.ttf",
 });
 Font.register({
   family: "Lato",
   fonts: [
-    { src: url + "fonts/Lato-Regular.ttf" }, // font-style: normal, font-weight: normal
+    { src: base + "fonts/Lato-Regular.ttf" }, // font-style: normal, font-weight: normal
     {
-      src: url + "fonts/Lato-Italic.ttf",
+      src: base + "fonts/Lato-Italic.ttf",
       fontStyle: "italic",
     },
     {
-      src: url + "fonts/Lato-Light.ttf",
+      src: base + "fonts/Lato-Light.ttf",
       fontWeight: 300,
     },
     {
-      src: url + "fonts/Lato-LightItalic.ttf",
+      src: base + "fonts/Lato-LightItalic.ttf",
       fontWeight: 300,
       fontStyle: "italic",
     },
-    { src: url + "fonts/Lato-Bold.ttf", fontWeight: 700 },
+    { src: base + "fonts/Lato-Bold.ttf", fontWeight: 700 },
   ],
 });
 Font.registerHyphenationCallback((word) => [word]);
