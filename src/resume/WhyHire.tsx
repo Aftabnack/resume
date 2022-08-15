@@ -46,14 +46,7 @@ const data = [
     I have overseen a complete React migration of this portal from it's
     beginnings inside a Django App, into a standalone microservice & then to a{" "}
     <Bold>Pure React WebApp</Bold> powered by CRA. This journey was 3.5 years in
-    the making. Read about it{" "}
-    <Link src="https://medium.com/goibibo-backstage/django-unchained-literally-fa90697dc37e">
-      here
-    </Link>{" "}
-    &{" "}
-    <Link src="https://medium.com/goibibo-backstage/modernising-legacy-web-app-51ba952e7630">
-      here
-    </Link>
+    the making. Check out the blogs.
   </>,
   <>
     Throughout this migration journey, we have continuously shipped product
