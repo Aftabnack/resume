@@ -5,7 +5,7 @@ import { base } from "./url";
 const App = () => {
   return (
     <div className="container">
-      <div className="message">
+      <header className="message">
         Made with single code running{" "}
         <a href="https://react-pdf.org" target="_blank">
           React PDF
@@ -20,10 +20,17 @@ const App = () => {
         <a href={base + "Aftab_Khan_Resume.pdf"} target="_blank">
           clicking here
         </a>
-      </div>
-      <div className="page">
+      </header>
+      <main className="page">
         <Resume />
-      </div>
+      </main>
+      <footer className="message">
+        © 2022, Made by Aftab Khan (
+        <a href="https://twitter.com/Aftabnack/" target="_blank">
+          @Aftabnack
+        </a>
+        )
+      </footer>
     </div>
   );
 };
