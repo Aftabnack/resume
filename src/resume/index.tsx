@@ -4,6 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Personal from "./Personal";
 import Skills from "./Skills";
+import WhyHire from "./WhyHire";
 
 Font.register({
   family: "Mouse Memoirs",
@@ -47,7 +48,9 @@ const Resume = () => (
         <Experience />
         <Education />
       </View>
-      <View style={styles.rightview}></View>
+      <View style={styles.rightview}>
+        <WhyHire />
+      </View>
     </Page>
   </Document>
 );

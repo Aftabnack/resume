@@ -34,3 +34,10 @@ This repo is going to be powering the resume for Aftab Khan. There has been a fa
 - Found out that the web was smaller than the rendered PDF
 - After digging into a lot of things, found out that the difference was in the units, the default unit for React-PDF was pt & RNW was obviously px.
 - Wrote a custom logic to recurse thru all the styles and update **all numbers** by a factor of 1.33
+
+### Day 4: Adding the remaining content
+
+- Added a web shell so that I could frame the PDF as a page and give links to download the PDF
+- Optimized the rendering on mobile so that complete page is properly visible
+- Finished adding rest of the content
+- **End of this Project** will only make changes based on few feedbacks from others

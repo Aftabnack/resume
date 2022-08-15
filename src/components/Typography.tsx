@@ -1,15 +1,27 @@
 import { Text, StyleSheet } from "@react-pdf/renderer";
+import { Style } from "@react-pdf/types";
 import { CSSProperties } from "react";
 
 type CompProps = {
-  variant: "heading" | "subheading" | "title" | "content" | "small";
+  variant:
+    | "heading"
+    | "sideHeading"
+    | "subheading"
+    | "title"
+    | "content"
+    | "small";
   color?: CSSProperties["color"];
+  style?: Style;
   children: React.ReactNode;
 };
 
 const styles = StyleSheet.create({
   heading: {
     fontSize: 30,
+    fontFamily: "Mouse Memoirs",
+  },
+  sideHeading: {
+    fontSize: 20,
     fontFamily: "Mouse Memoirs",
   },
   subheading: {
@@ -33,6 +45,6 @@ const styles = StyleSheet.create({
 });
 
 export default function Typography(props: CompProps) {
-  const { variant, children, color = "white" } = props;
-  return <Text style={[styles[variant], { color }]}>{children}</Text>;
+  const { variant, children, color = "white", style = {} } = props;
+  return <Text style={[styles[variant], { color }, style]}>{children}</Text>;
 }
