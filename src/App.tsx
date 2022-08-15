@@ -1,31 +1,30 @@
-import { StyleSheet, View } from "react-native-web";
 import Resume from "./resume";
-
-const styles = StyleSheet.create({
-  container: {
-    width: "100vw",
-    height: "100vh",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#e2e8f0",
-  },
-  page: {
-    width: "803px",
-    height: "1132px",
-    shadowColor: "#000",
-    shadowOffset: { width: 2, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 4,
-  },
-});
+import "./App.css";
+import { base } from "./url";
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.page}>
+    <div className="container">
+      <div className="message">
+        Made with single code running{" "}
+        <a href="https://react-pdf.org" target="_blank">
+          React PDF
+        </a>{" "}
+        on server &{" "}
+        <a href="https://necolas.github.io/react-native-web/" target="_blank">
+          React Native Web
+        </a>{" "}
+        on browser ❤️
+        <br />
+        Download the PDF by{" "}
+        <a href={base + "Aftab_Khan_Resume.pdf"} target="_blank">
+          clicking here
+        </a>
+      </div>
+      <div className="page">
         <Resume />
-      </View>
-    </View>
+      </div>
+    </div>
   );
 };
 
