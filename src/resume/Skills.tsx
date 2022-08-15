@@ -22,7 +22,7 @@ export default function Skills() {
       <View style={styles.sectionGap}>
         <Typography variant="small">
           <Text style={{ textDecoration: "underline" }}>Libraries</Text>: React
-          DOM, React Hooks, Material UI, React Router, React Hook Form,
+          DOM, React Hooks, Material UI, React Router DOM, React Hook Form,
           Recharts, Firebase, TailwindCSS, Prettier, Jest, Storybook
         </Typography>
       </View>

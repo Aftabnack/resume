@@ -35,10 +35,4 @@ const App = () => {
   );
 };
 
-const App1 = () => (
-  <main className="page">
-    <Resume />
-  </main>
-);
-
 export default App;

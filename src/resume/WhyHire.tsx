@@ -45,8 +45,8 @@ const data = [
   <>
     I have overseen a complete React migration of this portal from it's
     beginnings inside a Django App, into a standalone microservice & then to a{" "}
-    <Bold>Pure React WebApp</Bold> powered by ViteJS. This journey was 3.5 years
-    in the making. Read about it{" "}
+    <Bold>Pure React WebApp</Bold> powered by CRA. This journey was 3.5 years in
+    the making. Read about it{" "}
     <Link src="https://medium.com/goibibo-backstage/django-unchained-literally-fa90697dc37e">
       here
     </Link>{" "}
@@ -88,8 +88,11 @@ const data = [
     <Bold>strong foundation in React, AST, RegExp</Bold> among other things.
   </>,
   <>
-    I have contributed to Open Source in the past - Jest, React Boilerplate, CRA
-    related packages. And I am a key proponent of using Open Source software.
+    I have contributed to{" "}
+    <Bold>
+      Open Source in the past - Jest, React Boilerplate, CRA related packages
+    </Bold>
+    . And I am a key proponent of using Open Source software.
   </>,
   <>
     I am excellent and debugging issues, often diving into library code to

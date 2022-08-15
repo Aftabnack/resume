@@ -13,8 +13,10 @@ const styles = StyleSheet.create({
 export default function Personal() {
   return (
     <Section>
-      <Typography variant="heading">Aftab Khan</Typography>
+      <Typography variant="heading">Aftab Alam Khan</Typography>
       <Typography variant="subheading">Lead Software Engineer (FE)</Typography>
+      <Typography variant="small">+91 9738209981</Typography>
+      <Typography variant="small">aftabnack@gmail.com</Typography>
       <View style={styles.locContainer}>
         <Image
           src={{
