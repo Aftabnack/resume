@@ -11,7 +11,12 @@ const styles = StyleSheet.create({
   },
   lineContainer: {
     flexDirection: "row",
+    alignItems: "flex-start",
     marginBottom: 2,
+  },
+  lineBullet: {
+    color: "black",
+    marginTop: -1,
   },
   lineItem: {
     color: "black",
@@ -139,7 +144,9 @@ export default function WhyHire() {
         }
         return (
           <View style={styles.lineContainer} key={idx}>
-            <Text>☀</Text>
+            <Typography variant="small" style={styles.lineBullet}>
+              »
+            </Typography>
             <Typography variant="small" style={styles.lineItem}>
               {entry}
             </Typography>
