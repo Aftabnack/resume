@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
 
 export default function Links() {
   return (
-    <Section title="Blogs & Certifications">
+    <Section title="Important Links">
       <Typography variant="small" style={styles.sectionGap}>
         • Blog:{" "}
         <Link src="https://medium.com/goibibo-backstage/django-unchained-literally-fa90697dc37e">
