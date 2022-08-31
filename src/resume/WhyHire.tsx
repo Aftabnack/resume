@@ -39,8 +39,8 @@ const Bold = (props: BoldProps) => {
 const data = [
   <>
     I am the owner of our B2B Hotelier portal. And I currently lead a team of{" "}
-    <Bold>10+ developers</Bold> working on the same.{" "}
-    <Link src="https://in.goibibo.com/extranet">InGoMMT Portal</Link>
+    <Bold>10+ developers</Bold>, most of whom I have mentored, working on the
+    same. <Link src="https://in.goibibo.com/extranet">InGoMMT Portal</Link>
   </>,
   <>
     I have setup everything related to this project, starting from creating an
