@@ -38,47 +38,40 @@ const Bold = (props: BoldProps) => {
 
 const data = [
   <>
-    I am the owner of our B2B Hotelier portal through which our hoteliers list,
-    manage & sell hotel experiences to travellers around the world.{" "}
+    I am the owner of our B2B Hotelier portal. And I currently lead a team of{" "}
+    <Bold>10+ developers</Bold> working on the same.{" "}
     <Link src="https://in.goibibo.com/extranet">InGoMMT Portal</Link>
   </>,
   <>
+    I have setup everything related to this project, starting from creating an
+    <Bold> In-house custom dev setup for Hybrid app</Bold>, CI/CD pipelines,
+    production deployment via Docker & <Bold>zero-downtime deployment</Bold>.
+  </>,
+  <>
+    Have worked on multiple Optimizations including removing 500+ Kb from first
+    load. Bringing down the load time (fast network) from{" "}
+    <Bold>~5s to ~200ms</Bold>. And GA average load time went down from{" "}
+    <Bold>~13s to ~3s</Bold>.
+  </>,
+  <>
     I have overseen a complete React migration of this portal from it's
-    beginnings inside a Django App, into a standalone microservice & then to a{" "}
-    <Bold>Pure React WebApp</Bold> powered by CRA. This journey was 3.5 years in
-    the making. Check out the blogs.
-  </>,
-  <>
-    Throughout this migration journey, we have continuously shipped product
-    stories driving our business. Our Webapp recently hit the milestone of{" "}
-    <Bold>100+ modules/features</Bold>.
-  </>,
-  <>
-    We have been <Bold>early production adopters</Bold> of all the latest
-    developments in React like Hooks, Context API, React 18 etc.
-  </>,
-  <>
-    I have setup everything related to this project, starting from Dev/Prod
-    build Setup, <Bold>custom Bash-Script to bundle & version legacy code</Bold>
-    , CI/CD pipelines, production deployment via Docker &{" "}
-    <Bold>zero-downtime deployment via S3</Bold>.
-  </>,
-  <>
-    Have worked on multiple Optimizations to make sure we deliver the fastest
-    experience possible. Few metrics include bringing down the load time (fast
-    network) from <Bold>~5s to ~200ms</Bold>. And GA average load time went down
-    from <Bold>~13s to ~3s</Bold>.
-  </>,
-  <>
-    In a recent PR, I have removed about <Bold>500Kb+ in Gzipped size</Bold> of
-    all assets. And had <Bold>touched over 1200+ files</Bold> to complete our
-    React Migration & get rid of all legacy code. Most of it was done via a
-    custom codemod script written using jscodeshift.
+    beginnings inside a Django App, into a hybrid app & then to a{" "}
+    <Bold>Pure React WebApp</Bold> consisting of 100+ modules. Check out the
+    blogs.
   </>,
   <>
     In my previous company, as part of the internal platform we were building, I
     had created a UI platform over ReactJS. And this gave me{" "}
     <Bold>strong foundation in React, AST, RegExp</Bold> among other things.
+  </>,
+  <>
+    Have written <Bold>custom ESLint rules</Bold> for checking for our
+    established coding patterns & <Bold>codemod scripts</Bold> for doing bulk
+    code changes across the code.
+  </>,
+  <>
+    We have been <Bold>early production adopters</Bold> of all the latest
+    developments in React like Hooks, Context API, React 18 etc.
   </>,
   <>
     I have contributed to{" "}
@@ -87,31 +80,29 @@ const data = [
     </Bold>
     . And I am a key proponent of using Open Source software.
   </>,
-  <>
-    I am excellent and debugging issues, often diving into library code to
-    understand better. I am extremely proficient in Git. And I write my own
-    HTML/CSS. I also have extremely good recollection of code.
-  </>,
   "",
   "",
-  <>
-    I currently lead a team of <Bold>10+ developers</Bold> most of whom I have
-    personally mentored/grown over time
-  </>,
   <>
     I work with an upwards of <Bold>30+ stakeholders</Bold> & with a BE team of{" "}
-    <Bold>50+ developers</Bold> running various projects.
+    <Bold>50+ developers</Bold> running various projects, architecting
+    solutions, owning project execution & delivery.
+  </>,
+  <>
+    Currently I do a 50%-50% work split between coding & managing the team &
+    projects.
   </>,
   <>
     Our team has maintained an excellent track record of{" "}
-    <Bold>always delivering every project on-time</Bold> which we achieve by
-    doing proper planning, proactively & vocally calling out any blockers on day
-    1 & FE blocker resolution within couple of hours.
+    <Bold>delivering every project as per the plan</Bold>.
   </>,
   <>
-    I ensure that even in such a big project, quality is never compromised by
-    the way of detailed Code Reviews sometimes{" "}
-    <Bold>stretching over few days</Bold>.
+    I am excellent and debugging issues, extremely proficient in Git. And I also
+    have extremely good recollection of code.
+  </>,
+  <>
+    I ensure that we follow a very detailed & rigorous Code Review process,
+    sometimes <Bold>stretching over few days</Bold> to ensure that the quality
+    is maintained.
   </>,
   <>
     I am excellent at context switching, often doing that for about 6-7

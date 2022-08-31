@@ -18,7 +18,12 @@ const data = [
   },
   {
     company: "Mu Sigma Inc",
-    roles: [{ title: "Full Stack Developer", timeline: "Jul 2015 - Aug 2018" }],
+    roles: [
+      {
+        title: "Full Stack Developer (Platform Team)",
+        timeline: "Jul 2015 - Aug 2018",
+      },
+    ],
   },
 ];
 
