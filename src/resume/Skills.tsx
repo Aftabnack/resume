@@ -10,20 +10,20 @@ export default function Skills() {
   return (
     <Section title="Skills">
       <Typography variant="small">
-        JavaScript, ReactJS, Typescript, GraphQL, NodeJS, NextJS, RegExp
+        JavaScript, React, Typescript, GraphQL, Node.js, Next.js, RegExp
       </Typography>
       <View style={styles.sectionGap}>
         <Typography variant="small">
           <Text style={{ textDecoration: "underline" }}>Tooling & Devops</Text>:
-          AST, Webpack, ESLint, Babel, Create-React-App, Docker, Linux, Git,
-          Bash Script, Jenkins
+          AST, Webpack, ESLint, Babel, Create-React-App, ViteJS, Docker, Linux,
+          Git, Bash script, Jenkins
         </Typography>
       </View>
       <View style={styles.sectionGap}>
         <Typography variant="small">
-          <Text style={{ textDecoration: "underline" }}>Libraries</Text>: React
-          DOM, React Hooks, Material UI, React Router DOM, React Hook Form,
-          Recharts, Firebase, TailwindCSS, Prettier, Jest, Storybook
+          <Text style={{ textDecoration: "underline" }}>Libraries</Text>:
+          ReactDOM, React Hooks, MUI, React Router, React Hook Form, Recharts,
+          Firebase, tailwindcss, Prettier, Jest, Storybook
         </Typography>
       </View>
     </Section>
