@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <Section title="Skills">
       <Typography variant="small">
-        JavaScript, ES6, React.js, HTML5, CSS3, Typescript, GraphQL, Node.js,
+        JavaScript, ES6, React.js, HTML5, CSS, Typescript, GraphQL, Node.js,
         Next.js, RegExp
       </Typography>
       <View style={styles.sectionGap}>
