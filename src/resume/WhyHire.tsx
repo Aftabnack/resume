@@ -48,14 +48,14 @@ const groupedData = {
   Engineering: [
     <>
       I have setup everything related to our company's B2B Hotelier portal,
-      starting from creating an
-      <Bold> In-house custom framework for Hybrid app</Bold>, CI/CD pipelines,
-      release deployment via Docker &{" "}
+      starting from creating an{" "}
+      <Bold>In-house custom framework for Hybrid App</Bold> to setting up CI/CD
+      pipelines, release deployment via Docker &{" "}
       <Bold>zero-downtime production deployment</Bold> via S3 & CDN.
     </>,
     <>
       Have worked on multiple Optimizations including removing 500+ Kb from
-      first load. Bringing down the load time (fast network) from{" "}
+      overall website resources. Bringing down the load time (fast network) from{" "}
       <Bold>~5s to ~200ms</Bold>. And GA average load time went down from{" "}
       <Bold>~13s to ~3s</Bold>.
     </>,
@@ -81,11 +81,9 @@ const groupedData = {
       perform upgrades on all our libraries on a quarterly basis.
     </>,
     <>
-      I have contributed to{" "}
-      <Bold>
-        Open Source in the past - Jest, React Boilerplate, CRA related packages
-      </Bold>
-      . And I am a key proponent of using Open Source software.
+      I have contributed to Open Source in the past -{" "}
+      <Bold>Jest, React Boilerplate, CRA & related packages</Bold>. And I am a
+      key proponent of using Open Source software.
     </>,
   ],
   Management: [
