@@ -1,4 +1,5 @@
 import { View, StyleSheet } from "@react-pdf/renderer";
+import { colorPrimaryDark } from "../resume/constants";
 import Typography from "./Typography";
 
 type CompProps = {
@@ -11,7 +12,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: 2,
     padding: 8,
-    backgroundColor: "#075985",
+    backgroundColor: colorPrimaryDark,
   },
   container: { padding: 8 },
 });

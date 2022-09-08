@@ -1,5 +1,6 @@
 import { Page, View, Document, Font, StyleSheet } from "@react-pdf/renderer";
 import { base } from "../url";
+import { colorPrimary } from "./constants";
 import Education from "./Education";
 import Experience from "./Experience";
 import Links from "./Links";
@@ -35,7 +36,7 @@ Font.registerHyphenationCallback((word) => [word]);
 
 const styles = StyleSheet.create({
   page: { flexDirection: "row", backgroundColor: "white" },
-  leftview: { backgroundColor: "#0284c7", flex: 1 },
+  leftview: { backgroundColor: colorPrimary, flex: 1 },
   rightview: { flex: 2 },
 });
 

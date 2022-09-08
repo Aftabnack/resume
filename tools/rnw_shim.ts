@@ -82,6 +82,8 @@ function recurseStyles(styles) {
       recurseStyles(value);
     } else if (typeof value === "number") {
       styles[key] = ptToPx(value);
+    } else if (key === "textDecoration") {
+      styles.textDecorationLine = value;
     }
   });
 }
