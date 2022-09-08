@@ -10,7 +10,8 @@ export default function Skills() {
   return (
     <Section title="Skills">
       <Typography variant="small">
-        JavaScript, React, Typescript, GraphQL, Node.js, Next.js, RegExp
+        JavaScript, ES6, React.js, HTML5, CSS3, Typescript, GraphQL, Node.js,
+        Next.js, RegExp
       </Typography>
       <View style={styles.sectionGap}>
         <Typography variant="small">
@@ -23,7 +24,7 @@ export default function Skills() {
         <Typography variant="small">
           <Text style={{ textDecoration: "underline" }}>Libraries</Text>:
           ReactDOM, React Hooks, MUI, React Router, React Hook Form, Recharts,
-          Firebase, tailwindcss, Prettier, Jest, Storybook
+          Firebase, tailwindcss, Sass, Prettier, Jest, Storybook
         </Typography>
       </View>
     </Section>

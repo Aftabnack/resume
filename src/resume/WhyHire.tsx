@@ -49,9 +49,9 @@ const groupedData = {
     <>
       I have setup everything related to our company's B2B Hotelier portal,
       starting from creating an
-      <Bold> In-house custom dev setup for Hybrid app</Bold>, CI/CD pipelines,
+      <Bold> In-house custom framework for Hybrid app</Bold>, CI/CD pipelines,
       release deployment via Docker &{" "}
-      <Bold>zero-downtime production deployment</Bold>.
+      <Bold>zero-downtime production deployment</Bold> via S3 & CDN.
     </>,
     <>
       Have worked on multiple Optimizations including removing 500+ Kb from
@@ -60,8 +60,8 @@ const groupedData = {
       <Bold>~13s to ~3s</Bold>.
     </>,
     <>
-      I have overseen a complete React migration of this portal from it's
-      beginnings inside a Django App, into a hybrid app & then to a{" "}
+      I have overseen a complete React migration of this web application from
+      it's beginnings inside a Django App, into a hybrid app & then to a{" "}
       <Bold>Pure React WebApp</Bold> consisting of 100+ modules. Check out the
       blogs.
     </>,
@@ -94,13 +94,13 @@ const groupedData = {
       team from me being the sole developer.
     </>,
     <>
-      I work with an upwards of <Bold>30+ stakeholders</Bold> & with a BE team
-      of <Bold>50+ developers</Bold> running various projects, architecting
-      solutions, owning project execution & delivery.
+      I work with an upwards of <Bold>50+ Backend Engineers</Bold> & atleast{" "}
+      <Bold>40+ stakeholders</Bold> including teams like QA, Design, Analytics,
+      Devops, SecOps, etc.
     </>,
     <>
-      Currently I do a 50%-50% work split between coding & managing the team &
-      projects.
+      <Bold>I take care of running various projects</Bold> owning planning,
+      architecture, UI/UX review, APIs discussion, project execution & delivery.
     </>,
     <>
       Our team has maintained an excellent track record of{" "}
