@@ -47,8 +47,7 @@ const Bold = (props: BoldProps) => {
 const groupedData = {
   Engineering: [
     <>
-      I have setup everything related to our company's B2B Hotelier portal,
-      starting from creating an{" "}
+      I have setup everything starting from creating an{" "}
       <Bold>In-house custom framework for Hybrid App</Bold> to setting up CI/CD
       pipelines, release deployment via Docker &{" "}
       <Bold>zero-downtime production deployment</Bold> via S3 & CDN.
@@ -60,8 +59,8 @@ const groupedData = {
       <Bold>~13s to ~3s</Bold>.
     </>,
     <>
-      I have overseen a complete React migration of this web application from
-      it's beginnings inside a Django App, into a hybrid app & then to a{" "}
+      I have overseen complete migration of this web application from being part
+      of a Django App, into a hybrid app & then to a{" "}
       <Bold>Pure React WebApp</Bold> consisting of 100+ modules. Check out the
       blogs.
     </>,
@@ -139,6 +138,19 @@ export default function WhyHire() {
         Key things about me
       </Typography>
       <View style={styles.longLine} />
+      <View style={styles.groupContainer}>
+        <Typography variant="title" style={styles.groupTitle}>
+          Summary
+        </Typography>
+        <View style={styles.lineContainer}>
+          <Typography variant="content" style={styles.lineItem}>
+            Lead Software Engineer with <Bold>7+ years of experience</Bold>{" "}
+            currently owning & driving Hotelier B2B portal having overseen it's
+            complete migration to React WebApp. In the past, I had built a UI
+            framework built on top of React as part of the Platform team.
+          </Typography>
+        </View>
+      </View>
       {groupKeys.map((group) => {
         const data = groupedData[group];
         return (
