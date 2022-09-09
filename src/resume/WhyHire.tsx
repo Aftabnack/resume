@@ -60,8 +60,8 @@ const groupedData = {
     </>,
     <>
       We have been delivering multiple business requirements & clean user
-      experience across our <Bold>100+ modules</Bold>. And we have maintained{" "}
-      <Bold>zero production bugs</Bold> policy with same day fixes.
+      experience across our <Bold>100+ modules</Bold>. And we also have
+      maintained <Bold>zero production bugs</Bold> policy.
     </>,
     <>
       In my previous company, as part of the internal platform we were building,
