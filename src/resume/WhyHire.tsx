@@ -57,8 +57,9 @@ const groupedData = {
       <Bold>zero-downtime production deployment</Bold> via S3 & CDN.
     </>,
     <>
-      I have worked on multiple Optimizations including removing 600+ Kb from
-      overall website resources. Bringing down the load time (fast network) from{" "}
+      I have worked on multiple Optimizations including{" "}
+      <Bold>saving 600+ Kb minified gzipped</Bold> from overall website
+      resources. Bringing down the load time (fast network) from{" "}
       <Bold>~5s to ~800ms</Bold>. And GA average load time went down from{" "}
       <Bold>~13s to ~3s</Bold>.
     </>,
