@@ -57,23 +57,23 @@ const groupedData = {
       <Bold>zero-downtime production deployment</Bold> via S3 & CDN.
     </>,
     <>
-      Have worked on multiple Optimizations including removing 500+ Kb from
+      I have worked on multiple Optimizations including removing 500+ Kb from
       overall website resources. Bringing down the load time (fast network) from{" "}
       <Bold>~5s to ~200ms</Bold>. And GA average load time went down from{" "}
       <Bold>~13s to ~3s</Bold>.
     </>,
     <>
       We have been delivering multiple business requirements & clean user
-      experience across our <Bold>100+ modules</Bold>. And we also have
-      maintained <Bold>zero production bugs</Bold> policy.
+      experience across our <Bold>100+ modules</Bold> while also making sure to
+      maintain <Bold>zero production bugs</Bold> policy.
     </>,
     <>
       In my previous company, as part of the internal platform we were building,
-      I had created a UI platform over ReactJS. And this gave me{" "}
+      I had created a UI platform over ReactJS. This gave me{" "}
       <Bold>strong foundation in React, AST, RegExp</Bold> among other things.
     </>,
     <>
-      Have written <Bold>custom ESLint rules</Bold> for checking for our
+      I have written <Bold>custom ESLint rules</Bold> for checking for our
       established coding patterns & <Bold>codemod scripts</Bold> for doing bulk
       code changes across the code.
     </>,
@@ -103,14 +103,14 @@ const groupedData = {
       architecture, UI/UX review, APIs discussion, project execution & delivery.
     </>,
     <>
-      I am excellent and debugging issues, extremely proficient in Git. And I
-      also have extremely good recollection of code. All of which is put to good
-      use in helping the team
+      I am excellent at debugging/solving issues & extremely proficient in Git.
+      I also have extremely good recollection of code. All of which is put to
+      good use in helping the team.
     </>,
     <>
       I ensure that we follow a very detailed & rigorous Code Review process,
-      sometimes <Bold>stretching over few days</Bold> to ensure that the quality
-      is maintained.
+      sometimes <Bold>stretching over few days</Bold> to ensure that the code
+      quality is maintained.
     </>,
     <>
       I am excellent at context switching, often doing that for about 6-7
@@ -122,7 +122,7 @@ const groupedData = {
     </>,
     <>
       I also excel at communication related to team & projects and believe in
-      strong documentation.
+      meticulous documentation.
     </>,
   ],
 };
