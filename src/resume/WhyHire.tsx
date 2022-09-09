@@ -59,7 +59,7 @@ const groupedData = {
     <>
       I have worked on multiple Optimizations including removing 500+ Kb from
       overall website resources. Bringing down the load time (fast network) from{" "}
-      <Bold>~5s to ~200ms</Bold>. And GA average load time went down from{" "}
+      <Bold>~5s to ~800ms</Bold>. And GA average load time went down from{" "}
       <Bold>~13s to ~3s</Bold>.
     </>,
     <>
