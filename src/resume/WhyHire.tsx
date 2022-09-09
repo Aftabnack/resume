@@ -59,10 +59,9 @@ const groupedData = {
       <Bold>~13s to ~3s</Bold>.
     </>,
     <>
-      I have overseen complete migration of this web application from being part
-      of a Django App, into a hybrid app & then to a{" "}
-      <Bold>Pure React WebApp</Bold> consisting of 100+ modules. Check out the
-      blogs.
+      We have been delivering multiple business requirements & clean user
+      experience across our <Bold>100+ modules</Bold>. And we have maintained{" "}
+      <Bold>zero production bugs</Bold> policy with same day fixes.
     </>,
     <>
       In my previous company, as part of the internal platform we were building,
@@ -98,10 +97,6 @@ const groupedData = {
     <>
       <Bold>I take care of running various projects</Bold> owning planning,
       architecture, UI/UX review, APIs discussion, project execution & delivery.
-    </>,
-    <>
-      Our team has maintained an excellent track record of{" "}
-      <Bold>delivering every project as per the plan</Bold>.
     </>,
     <>
       I am excellent and debugging issues, extremely proficient in Git. And I
