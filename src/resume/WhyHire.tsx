@@ -17,6 +17,10 @@ const styles = StyleSheet.create({
     color: "black",
     textDecoration: "underline",
   },
+  summaryText: {
+    color: "black",
+    marginTop: 2,
+  },
   lineContainer: {
     flexDirection: "row",
     alignItems: "flex-start",
@@ -137,14 +141,12 @@ export default function WhyHire() {
         <Typography variant="title" style={styles.groupTitle}>
           Summary
         </Typography>
-        <View style={styles.lineContainer}>
-          <Typography variant="content" style={styles.lineItem}>
-            Lead Software Engineer with <Bold>7+ years of experience</Bold>{" "}
-            currently owning & driving Hotelier B2B portal having overseen it's
-            complete migration to React WebApp. In the past, I had built a UI
-            framework built on top of React as part of the Platform team.
-          </Typography>
-        </View>
+        <Typography variant="content" style={styles.summaryText}>
+          Lead Software Engineer with <Bold>7+ years of experience</Bold>{" "}
+          currently owning & driving Hotelier B2B portal having overseen it's
+          complete migration to React WebApp. In the past, I had built a UI
+          framework built on top of React as part of the Platform team.
+        </Typography>
       </View>
       {groupKeys.map((group) => {
         const data = groupedData[group];
