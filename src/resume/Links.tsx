@@ -21,6 +21,12 @@ export default function Links() {
           Modernising legacy web app
         </Link>
       </Typography>
+      <Typography variant="small" style={styles.sectionGap}>
+        •{" "}
+        <Link src="https://medium.com/@aftabnack/react-a-migration-journey-at-scale-cfc111d9dd9b">
+          React — A Migration Journey at Scale
+        </Link>
+      </Typography>
     </Section>
   );
 }
