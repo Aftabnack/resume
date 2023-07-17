@@ -51,9 +51,10 @@ const Bold = (props: BoldProps) => {
 const groupedData = {
   Engineering: [
     <>
-      In the first 3 months at Uber. I have ramped up quickly on the entire FE stack which
-      consists of Web Monorepo, Fusion.js, Baseweb & tools like Bazel, Arc, Jazelle. I have also completed
-      a full rewrite of an internal tool with simple code, zero tech debt & 95%+ code coverage.
+      In the first 3 months at Uber. I have ramped up quickly on the entire FE
+      stack which consists of Web Monorepo, Fusion.js, Baseweb & tools like
+      Bazel, Arc, Jazelle. I have also completed a full rewrite of an internal
+      tool with simple code, zero tech debt & 95%+ code coverage.
     </>,
     <>
       I have setup everything starting from creating an{" "}
@@ -74,28 +75,30 @@ const groupedData = {
     </>,
     <>
       In my previous company, as part of the internal platform we were building,
-      I had created a UI platform over ReactJS. As part of this I have written Webpack
-      Plugins, Webpack Loaders, Codemod scripts, Custom ESLint rules & Babel transforms via AST among other things.
+      I had created a UI platform over ReactJS. As part of this I have written
+      Webpack Plugins, Webpack Loaders, Codemod scripts, Custom ESLint rules &
+      Babel transforms via AST among other things.
     </>,
     <>
       We have been <Bold>early production adopters</Bold> of all the latest
-      developments in React like Hooks, Context API, React 18 etc. I have contributed 
-      to Open Source in the past - <Bold>Jest, React Boilerplate, CRA & related packages</Bold>.
+      developments in React like Hooks, Context API, React 18 etc. I have
+      contributed to Open Source in the past -{" "}
+      <Bold>Jest, React Boilerplate, CRA & related packages</Bold>.
     </>,
   ],
   Management: [
     <>
-      I have lead a team of <Bold>10+ Front-end Engineers</Bold>, having grown this
-      team from me being the sole developer.
+      I have lead a team of <Bold>10+ Front-end Engineers</Bold>, having grown
+      this team from me being the sole developer.
     </>,
     <>
-      I have worked with an upwards of <Bold>50+ Backend Engineers</Bold> & atleast{" "}
-      <Bold>40+ stakeholders</Bold> including teams like QA, Design, Analytics,
-      Devops, SecOps, etc.
+      I have worked with an upwards of <Bold>50+ Backend Engineers</Bold> &
+      atleast <Bold>40+ stakeholders</Bold> including teams like QA, Design,
+      Analytics, Devops, SecOps, etc.
     </>,
     <>
       I have taken care of running various projects owning planning,
-      architecture, UI/UX review, APIs discussion, project execution & delivery. 
+      architecture, UI/UX review, APIs discussion, project execution & delivery.
       I am excellent at context switching, often doing that for about 6-7
       different things on daily basis.
     </>,
@@ -132,10 +135,11 @@ export default function WhyHire() {
         </Typography>
         <Typography variant="content" style={styles.summaryText}>
           Senior Software Engineer with <Bold>8+ years of experience</Bold>{" "}
-          currently contributing to marketing platform which oversees 5bil+ communications in a day.
-          In the past, I have owned Hotelier B2B portal at Goibibo, having overseen it's
-          complete migration to React WebApp. Prior to that, I had built a UI
-          framework built on top of React as part of the Platform team.
+          currently contributing to marketing platform which oversees 5 billion+
+          communications in a day. In the past, I have owned Hotelier B2B portal
+          at Goibibo, having overseen it's complete migration to React WebApp.
+          Prior to that, I had built a UI framework built on top of React as
+          part of the Platform team.
         </Typography>
       </View>
       {groupKeys.map((group) => {
