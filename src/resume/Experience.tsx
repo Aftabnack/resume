@@ -9,9 +9,15 @@ const styles = StyleSheet.create({
 
 const data = [
   {
+    company: "Uber",
+    roles: [
+      { title: "Senior Software Engineer", timeline: "Apr 2023 - Present" },
+    ],
+  },
+  {
     company: "Goibibo (Go-MMT)",
     roles: [
-      { title: "Lead Software Engineer", timeline: "Apr 2021 - Present" },
+      { title: "Lead Software Engineer", timeline: "Apr 2021 - March 2023" },
       { title: "Senior Software Engineer II", timeline: "Oct 2019 - Apr 2021" },
       { title: "Senior Software Engineer I", timeline: "Sept 2018 - Oct 2019" },
     ],

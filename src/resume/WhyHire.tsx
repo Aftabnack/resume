@@ -51,6 +51,11 @@ const Bold = (props: BoldProps) => {
 const groupedData = {
   Engineering: [
     <>
+      In the first 3 months at Uber. I have ramped up quickly on the entire FE stack which
+      consists of Web Monorepo, Fusion.js, Baseweb & tools like Bazel, Arc, Jazelle. I have also completed
+      a full rewrite of an internal tool with simple code, zero tech debt & 95%+ code coverage.
+    </>,
+    <>
       I have setup everything starting from creating an{" "}
       <Bold>In-house custom framework for Hybrid App</Bold> to setting up CI/CD
       pipelines, release deployment via Docker &{" "}
@@ -69,38 +74,30 @@ const groupedData = {
     </>,
     <>
       In my previous company, as part of the internal platform we were building,
-      I had created a UI platform over ReactJS. This gave me{" "}
-      <Bold>strong foundation in React, AST, RegExp</Bold> among other things.
-    </>,
-    <>
-      I have written <Bold>custom ESLint rules</Bold> for checking for our
-      established coding patterns & <Bold>codemod scripts</Bold> for doing bulk
-      code changes across the code.
+      I had created a UI platform over ReactJS. As part of this I have written Webpack
+      Plugins, Webpack Loaders, Codemod scripts, Custom ESLint rules & Babel transforms via AST among other things.
     </>,
     <>
       We have been <Bold>early production adopters</Bold> of all the latest
-      developments in React like Hooks, Context API, React 18 etc. We constantly
-      perform upgrades on all our libraries on a quarterly basis.
-    </>,
-    <>
-      I have contributed to Open Source in the past -{" "}
-      <Bold>Jest, React Boilerplate, CRA & related packages</Bold>. And I am a
-      key proponent of using Open Source software.
+      developments in React like Hooks, Context API, React 18 etc. I have contributed 
+      to Open Source in the past - <Bold>Jest, React Boilerplate, CRA & related packages</Bold>.
     </>,
   ],
   Management: [
     <>
-      I lead a team of <Bold>10+ Front-end Engineers</Bold>, having grown this
+      I have lead a team of <Bold>10+ Front-end Engineers</Bold>, having grown this
       team from me being the sole developer.
     </>,
     <>
-      I work with an upwards of <Bold>50+ Backend Engineers</Bold> & atleast{" "}
+      I have worked with an upwards of <Bold>50+ Backend Engineers</Bold> & atleast{" "}
       <Bold>40+ stakeholders</Bold> including teams like QA, Design, Analytics,
       Devops, SecOps, etc.
     </>,
     <>
-      <Bold>I take care of running various projects</Bold> owning planning,
-      architecture, UI/UX review, APIs discussion, project execution & delivery.
+      I have taken care of running various projects owning planning,
+      architecture, UI/UX review, APIs discussion, project execution & delivery. 
+      I am excellent at context switching, often doing that for about 6-7
+      different things on daily basis.
     </>,
     <>
       I am excellent at debugging/solving issues & extremely proficient in Git.
@@ -111,14 +108,6 @@ const groupedData = {
       I ensure that we follow a very detailed & rigorous Code Review process,
       sometimes <Bold>stretching over few days</Bold> to ensure that the code
       quality is maintained.
-    </>,
-    <>
-      I am excellent at context switching, often doing that for about 6-7
-      different things on daily basis.
-    </>,
-    <>
-      I am excellent at donning different hats and solution ideation. And I am
-      good at creating win-win situations.
     </>,
     <>
       I also excel at communication related to team & projects and believe in
@@ -142,9 +131,10 @@ export default function WhyHire() {
           Summary
         </Typography>
         <Typography variant="content" style={styles.summaryText}>
-          Lead Software Engineer with <Bold>7+ years of experience</Bold>{" "}
-          currently owning & driving Hotelier B2B portal having overseen it's
-          complete migration to React WebApp. In the past, I had built a UI
+          Senior Software Engineer with <Bold>8+ years of experience</Bold>{" "}
+          currently contributing to marketing platform which oversees 5bil+ communications in a day.
+          In the past, I have owned Hotelier B2B portal at Goibibo, having overseen it's
+          complete migration to React WebApp. Prior to that, I had built a UI
           framework built on top of React as part of the Platform team.
         </Typography>
       </View>
